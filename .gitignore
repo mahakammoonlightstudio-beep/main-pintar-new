@@ -1,0 +1,12 @@
+# Kredensial & rahasia
+includes/config.local.php
+
+# Counter & artefak runtime
+includes/hits.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Zip rilis
+sw.zip

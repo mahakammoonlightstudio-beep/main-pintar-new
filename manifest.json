@@ -1,0 +1,60 @@
+{
+    "name": "Main Pintar - Kuis Edukatif Kearsipan Kutai Kartanegara",
+    "short_name": "Main Pintar",
+    "description": "Platform kuis edukatif bertema kearsipan untuk Dinas Kearsipan dan Perpustakaan Kabupaten Kutai Kartanegara",
+    "start_url": "./index.php",
+    "display": "standalone",
+    "background_color": "#f4f1f9",
+    "theme_color": "#46178f",
+    "orientation": "portrait-primary",
+    "scope": "./",
+    "lang": "id",
+    "dir": "ltr",
+    "icons": [
+        {
+            "src": "assets/img/logo-kukar.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "assets/img/logo-kukar.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "assets/img/icon-arsip.svg",
+            "sizes": "any",
+            "type": "image/svg+xml",
+            "purpose": "any"
+        }
+    ],
+    "categories": ["education", "games"],
+    "screenshots": [],
+    "shortcuts": [
+        {
+            "name": "Main Sendiri",
+            "short_name": "Solo",
+            "description": "Main kuis solo dengan timer",
+            "url": "./kuis.php",
+            "icons": [{ "src": "assets/img/icon-arsip.svg", "sizes": "96x96" }]
+        },
+        {
+            "name": "Gabung Live",
+            "short_name": "Live",
+            "description": "Gabung kuis live multiplayer",
+            "url": "./join.php",
+            "icons": [{ "src": "assets/img/icon-arsip.svg", "sizes": "96x96" }]
+        },
+        {
+            "name": "Peringkat",
+            "short_name": "Ranking",
+            "description": "Lihat leaderboard pemain",
+            "url": "./leaderboard.php",
+            "icons": [{ "src": "assets/img/icon-arsip.svg", "sizes": "96x96" }]
+        }
+    ],
+    "prefer_related_applications": false,
+    "related_applications": []
+}

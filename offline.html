@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Offline - Main Pintar</title>
+<meta name="theme-color" content="#46178f">
+<link rel="icon" type="image/png" href="assets/img/logo-kukar.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Open+Sans:wght@400;600;700&display=swap">
+<style>
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    body{min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#f4f1f9;color:#1e1830;font-family:"Open Sans",system-ui,sans-serif;line-height:1.6;padding:24px;text-align:center}
+    .offline-card{background:#fff;border:1px solid #d9d2e5;border-radius:16px;padding:48px 32px;max-width:400px;box-shadow:0 8px 24px rgba(40,20,80,.12);animation:fadeIn .5s ease-out}
+    @keyframes fadeIn{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+    .offline-icon{width:80px;height:80px;margin:0 auto 24px;background:linear-gradient(135deg,#46178f,#5b2aa8);border-radius:50%;display:flex;align-items:center;justify-content:center;color:#fff;font-size:32px}
+    h1{font-family:Poppins,system-ui,sans-serif;font-size:1.75rem;font-weight:800;color:#46178f;margin-bottom:12px}
+    p{color:#6f6684;margin-bottom:24px;line-height:1.7}
+    .btn{display:inline-flex;align-items:center;gap:8px;padding:12px 28px;background:#46178f;color:#fff;border:none;border-radius:8px;font:inherit;font-weight:600;text-decoration:none;cursor:pointer;transition:all .2s ease}
+    .btn:hover{background:#350f6b;transform:translateY(-2px);box-shadow:0 8px 18px rgba(40,20,80,.2)}
+    .btn:active{transform:translateY(0)}
+    .retry-btn{background:#d89e00;color:#241a00}
+    .retry-btn:hover{background:#e8b84d}
+</style>
+</head>
+<body>
+<div class="offline-card">
+    <div class="offline-icon" aria-hidden="true">
+        <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M1 1l22 22M16.72 11.06A10.94 10.94 0 0 1 19 12.55"/><path d="M5 12.55a10.94 10.94 0 0 1 5.17-2.39"/><path d="M10.71 5.05A16 16 0 0 1 22.58 9"/><path d="M1.42 9a15.91 15.91 0 0 1 4.7-2.88"/><path d="M8.59 3.14A16 16 0 0 0 2 9.05"/><path d="M12 12a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/></svg>
+    </div>
+    <h1>Kamu Sedang Offline</h1>
+    <p>Tidak ada koneksi internet. Beberapa fitur mungkin tidak tersedia. Data kuis yang sudah dimuat tetap bisa dilihat.</p>
+    <a class="btn retry-btn" onclick="window.location.reload()">Coba Lagi</a>
+    <p style="margin-top:16px;font-size:.85rem;color:#9a92b8;">Main Pintar - Kuis Edukatif Kearsipan Kutai Kartanegara</p>
+</div>
+<script>
+    // Auto-retry when online
+    window.addEventListener('online', function() {
+        window.location.reload();
+    });
+    // Show online status
+    if (navigator.onLine) {
+        document.querySelector('.offline-card').innerHTML += '<p style="margin-top:16px;color:#1b6b46;font-size:.9rem;">Koneksi pulih! <a href="index.php" style="color:#46178f;">Kembali ke beranda</a></p>';
+    }
+</script>
+</body>
+</html>
