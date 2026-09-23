@@ -1,0 +1,15 @@
+Main Pintar: kuis edukatif kearsipan untuk Diarpus Kutai Kartanegara (Bidang P2A) - kini dengan mode Live Multiplayer.
+
+Yang membuatnya menarik secara teknis:
+
+- Live multiplayer berkode ruangan enam karakter - peserta bergabung tanpa akun, skor tersinkron lewat polling ringan
+- Tiga peran pengguna: admin, operator, dan peserta
+- Kategori dan soal aktif/nonaktif yang dikelola lewat panel admin
+- Leaderboard dan statistik per sesi
+
+Sama seperti Kuis Arsip, perangkat lunak ini milik instansi (All Rights Reserved) - repo publiknya terbuka sebagai dokumentasi dan portofolio.
+
+Coba lihat: https://mainpintar.rf.gd/
+Dokumentasi: https://github.com/mahakammoonlightstudio-beep/main-pintar-new
+
+#PHP #MySQL #EdTech #GovTech #LiveQuiz

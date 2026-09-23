@@ -5,7 +5,7 @@
 | Item | Keterangan |
 |------|------------|
 | Nama Perangkat Lunak | Main Pintar — Kuis Edukatif Kearsipan Kutai Kartanegara |
-| Tahun Pembuatan | 2024 |
+| Tahun Pembuatan | 2026 |
 | Situs Resmi | https://mainpintar.rf.gd/ |
 | Instansi | Dinas Kearsipan dan Perpustakaan (Diarpus) Kabupaten Kutai Kartanegara |
 
@@ -73,7 +73,7 @@ Perangkat lunak ini mencakup fitur-fitur berikut yang termasuk dalam cakupan hak
 
 | Versi | Tanggal | Perubahan |
 |-------|---------|----------|
-| 1.0 | 2024 | Rilis awal: kuis solo, mode live, leaderboard, panel admin. |
+| 1.0 | 2026 | Rilis awal: kuis solo, mode live, leaderboard, panel admin. |
 | 1.1 | 2026 | Optimasi performa API polling, perbaikan bug timer, audit keamanan. |
 | 1.2 | 2026 | Lapisan desain sinematik (aurora, glass, glow), splash screen, sistem spasi fluid, profil v2 dengan lencana, sandbox kredensial `config.local.php`, optimasi session-lock API. |
 
@@ -131,4 +131,4 @@ Pengguna bertanggung jawab penuh atas penggunaan aplikasi ini. Pembuat dan pemil
 
 *Dokumen ini berlaku sebagai bukti pembuatan dan kepemilikan perangkat lunak. Apabila terdapat perbedaan penafsiran, keputusan pemilik bersifat final.*
 
-**© 2024-2026 Muhammad Fauzan Raffa Al-Habsy (Kode) + Dinas Kearsipan dan Perpustakaan Kabupaten Kutai Kartanegara (Konten & Data). All Rights Reserved.**
+**© 2026 Muhammad Fauzan Raffa Al-Habsy (Kode) + Dinas Kearsipan dan Perpustakaan Kabupaten Kutai Kartanegara (Konten & Data). All Rights Reserved.**
