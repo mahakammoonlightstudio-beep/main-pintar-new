@@ -96,4 +96,4 @@ main-pintarNew/
 
 ## Lisensi
 
-Hak cipta 2024-2026 - dimiliki Dinas Kearsipan dan Perpustakaan Kab. Kutai Kartanegara. Dikembangkan oleh Muhammad Fauzan Raffa Al-Habsy, SMKN 1 Tenggarong. Lihat [lisensi.md](lisensi.md).
+Perangkat lunak ini dimiliki oleh Dinas Kearsipan dan Perpustakaan Kab. Kutai Kartanegara (Bidang P2A) dan **tidak open source**. Repositori disediakan terbuka semata-mata untuk dokumentasi dan portofolio - dilarang menyalin, memodifikasi, men-deploy, atau menggunakannya untuk keperluan komersial tanpa izin tertulis. Lihat [LICENSE](LICENSE) dan [lisensi.md](lisensi.md).
