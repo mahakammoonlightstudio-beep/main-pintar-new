@@ -11,6 +11,12 @@
 
 ---
 
+## Status Lisensi
+
+Repositori ini disediakan terbuka semata-mata untuk keperluan **dokumentasi dan portofolio**. Perangkat lunak ini **TIDAK open source** - lihat berkas [LICENSE](LICENSE) untuk ketentuan lengkap: dilarang menyalin, memodifikasi, mendistribusikan, men-deploy, atau menggunakannya untuk keperluan komersial tanpa izin tertulis dari pemilik hak cipta.
+
+---
+
 ## 1. Pemilik Hak Cipta & Data
 
 > **Nama:** Varia Fadillah, S.P., M.M.
@@ -89,7 +95,7 @@ Perangkat lunak ini mencakup fitur-fitur berikut yang termasuk dalam cakupan hak
 | MySQL/MariaDB | GPL v2 | mariadb.com |
 | Google Fonts (Poppins, Open Sans) | SIL OFL | fonts.google.com |
 
-## 6. Penafian (Disclaimer)
+## 9. Penafian (Disclaimer)
 
 Perangkat lunak ini disediakan **"sebagaimana adanya" (as-is)** tanpa jaminan apa pun, baik tersurat maupun tersirat, termasuk namun tidak terbatas pada jaminan kelayakan untuk keperluan tertentu dan ketidakpelanggaran.
 
@@ -100,7 +106,7 @@ Pengguna bertanggung jawab penuh atas penggunaan aplikasi ini. Pembuat dan pemil
 - Penyalahgunaan data peserta oleh pihak ketiga;
 - Gangguan layanan akibat batasan hosting (InfinityFree).
 
-## 7. Kebijakan Privasi & Data Peserta
+## 10. Kebijakan Privasi & Data Peserta
 
 1. **Data yang dikumpulkan:** Username, nama lengkap, jawaban kuis, skor, dan waktu bermain.
 2. **Tujuan:** Penyimpanan skor, leaderboard, analitik admin.
@@ -108,7 +114,7 @@ Pengguna bertanggung jawab penuh atas penggunaan aplikasi ini. Pembuat dan pemil
 4. **Hak Peserta:** Dapat meminta penghapusan data melalui kontak admin.
 5. **Cookie:** Hanya session cookie (HTTPOnly, Secure, SameSite=Lax).
 
-## 8. Kontak & Dukungan
+## 11. Kontak & Dukungan
 
 **Untuk pertanyaan teknis / pengembangan:**
 
@@ -125,4 +131,4 @@ Pengguna bertanggung jawab penuh atas penggunaan aplikasi ini. Pembuat dan pemil
 
 *Dokumen ini berlaku sebagai bukti pembuatan dan kepemilikan perangkat lunak. Apabila terdapat perbedaan penafsiran, keputusan pemilik bersifat final.*
 
-**© 2024 Muhammad Fauzan Raffa Al-Habsy (Kode) + Dinas Kearsipan dan Perpustakaan Kabupaten Kutai Kartanegara (Konten & Data). All Rights Reserved.**
+**© 2024-2026 Muhammad Fauzan Raffa Al-Habsy (Kode) + Dinas Kearsipan dan Perpustakaan Kabupaten Kutai Kartanegara (Konten & Data). All Rights Reserved.**
